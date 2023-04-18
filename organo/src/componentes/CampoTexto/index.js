@@ -6,7 +6,11 @@ const CampoTexto = (props) => {
   return (
     <div className="campo-texto">
       <label for="">{props.label}</label>
-      <input type="text" placeholder={placeHolderModificada} />
+      <input
+        type="text"
+        required={props.obrigatorio}
+        placeholder={placeHolderModificada}
+      />
     </div>
   );
 };
