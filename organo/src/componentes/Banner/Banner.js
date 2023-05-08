@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Banner.css";
+import "./banner.css";
 
 export const Banner = () => {
   return (
